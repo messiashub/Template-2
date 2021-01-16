@@ -1,6 +1,6 @@
 *{
 
-    box-shadow: inset 0px 0px 0px 1px rgba(255, 0, 13, 0.1);
+   /*  box-shadow: inset 0px 0px 0px 1px rgba(255, 0, 13, 0.1);  */
     box-sizing: border-box;
 }
 body{
@@ -13,4 +13,78 @@ body{
 .pNav{
     padding: 16px 0px 8px 0px;
 }
+.banner { 
+   
+    background: url(imagens/empresa1.png);
     
+    background-size: cover ;
+}
+.wrapper{
+   max-width: 100%;
+   min-height: 540px;
+}
+.caixa{
+    margin-bottom: 1em;
+    padding: 1em;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.caixa h4{
+    color: white;
+}
+.caixa2 p{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: white;
+}
+.botao{
+    color: white;
+    background: rgba(135, 207, 235, 0.438);
+}
+.botao:hover{
+    color: white;
+    background: none;
+    border:1px solid rgb(241, 238, 238);
+}
+
+/* .imgI{
+    position: relative; 
+}
+
+.i{
+    
+    margin: auto;
+    /* border: 1px solid rgb(233, 23, 23); 
+    position: absolute;
+    /* position: fixed;  
+    top: 150px;
+}
+. textoImg{
+    position: absolute;
+    color: white;
+    top: 250px;  
+     left: 100px; 
+} 
+
+ .wrapper{
+    padding: 1em;
+    width: 350px;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+} 
+h3{
+    display:block;
+    color: white;
+}
+
+.h2{
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 0.5em;
+}
+ .banner{
+   
+    background: url(imagens/empresa1.png);
+    background-size: contain;
+   
+} */
