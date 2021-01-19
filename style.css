@@ -1,6 +1,6 @@
 *{
 
-    /* box-shadow: inset 0px 0px 0px 1px rgba(255, 0, 13, 0.1);  */
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 0, 13, 0.1); 
     box-sizing: border-box;
 }
 
@@ -53,6 +53,15 @@ body{
 
 .cor{
     color: var(--var-azul);
+}
+/* secao2 */
+
+.caixa3{
+    width: 400px;
+    display:inline-block;
+    justify-content: center;
+    text-align: center;
+    color: white;
 }
 
 /* .imgI{
