@@ -1,6 +1,6 @@
 *{
-
-    /* box-shadow: inset 0px 0px 0px 1px rgba(217, 255, 0, 0.1);  */
+/* 
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376); */ 
     box-sizing: border-box;
     
 }
@@ -121,6 +121,10 @@ body{
     justify-content: center;
     text-decoration: none;
     color: rgb(95, 176, 251)
+}
+
+.quadro{
+    height: 400px;
 }
 /* .imgI{
     position: relative; 
