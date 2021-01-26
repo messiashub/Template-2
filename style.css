@@ -1,6 +1,6 @@
 *{
-/* 
-    box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376); */ 
+
+    /* box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376);  */
     box-sizing: border-box;
     
 }
@@ -125,6 +125,20 @@ body{
 
 .quadro{
     height: 400px;
+}
+
+/* seção 4 */
+.btn1{
+    background-color: rgb(135, 209, 219);
+    border-color:white;
+    transition: 0.5s;
+    
+}
+.btn1:hover{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    transition-delay: 0.1s;
 }
 /* .imgI{
     position: relative; 
