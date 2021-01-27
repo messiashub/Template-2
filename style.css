@@ -1,6 +1,6 @@
 *{
 
-    /* box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376);  */
+    /* box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376);  */ 
     box-sizing: border-box;
     
 }
@@ -15,6 +15,7 @@ body{
 
 :root{
     --var-azul: rgba(135, 187, 235, 0.568);
+    --var-black:rgb(25, 29, 29);
 }
 .pNav{
     padding: 16px 0px 8px 0px;
@@ -140,6 +141,31 @@ body{
     background-color: white;
     transition-delay: 0.1s;
 }
+
+/* seção 5 */
+
+.color{
+    background: var(--var-black);
+}
+
+.btn2{
+    background-color: rgb(135, 209, 219);
+    border-color:black;
+    transition: 0.5s;
+}
+
+.btn2:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: var(--var-black);
+}
+
+
+
+
+
+
+
 /* .imgI{
     position: relative; 
 }
