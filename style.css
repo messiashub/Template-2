@@ -1,6 +1,6 @@
 *{
 
-    /* box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376);  */ 
+   /*  box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376);  */
     box-sizing: border-box;
     
 }
@@ -159,6 +159,22 @@ body{
     border: 1px solid white;
     background-color: var(--var-black);
 }
+
+/* seção 6 */
+.quadrado{
+    width: 500px;
+    display:inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.quadrado .p1{
+    font-size: 12px;
+}
+/* .quadrado h3{
+   display: inline-block;
+}
+ */
 
 
 
