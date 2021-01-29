@@ -1,6 +1,6 @@
 *{
 
-    box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376); 
+  /*   box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376);  */
     box-sizing: border-box;
     
 }
@@ -190,6 +190,7 @@ body{
     justify-content: center;
     align-items: center;
     bottom: 100px;
+    z-index: 2;
 }
 
 .imgCard1{
@@ -202,7 +203,7 @@ body{
 }    
 .imgCard1:hover{
     cursor: pointer;
-    background-image: url(./imagens/folha2.png);
+    background-image: url(./imagens/fundo.png);
     transition-delay: 0.2s;
 
 }
@@ -210,22 +211,28 @@ body{
     width: 640px;
     height: 380px;
     background-image: url(./imagens/folha2.png);
+    transition: 1s;
 }
 .imgCard2:hover{
     cursor: pointe;
-    background: black;
+    background-image: url(./imagens/fundo.png);
+    transition-delay: 0.2s;
 }
 .imgCard3{
     width: 640px;
     height: 380px;
     background-image: url(./imagens/folha3.png);
+    transition: 1s;
 }
 .imgCard3:hover{
-    background: black;
     cursor: pointer;
+    background-image: url(./imagens/fundo.png);
+    transition-delay: 0.2s;
 }
-
-
+.conteudobx{
+    
+    background-color: rgba(255, 255, 255, 0);
+}
 
 
 
