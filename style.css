@@ -1,6 +1,6 @@
 *{
 
-  /*   box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376);  */
+    /* box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376); */  
     box-sizing: border-box;
     
 }
@@ -110,6 +110,7 @@ body{
     flex-direction:column;
     /* justify-content: center;*/ 
 }
+
 .contentBx p{  
    margin-bottom: 0px;
    justify-content: center;
@@ -174,7 +175,59 @@ body{
 
 /* seção 7 */
 
-.card1{
+.img1{
+    position: relative;
+    justify-content: center;
+    width: 640px;
+    height: 380px;
+    background-image: url('./imagens/folha1.png');
+    transition: 0.5s;
+
+}
+.img1:hover{
+    background-image: url('./imagens/fundo.png');
+    cursor: pointer;
+    transition-delay: 0.1s;
+
+}
+.img2{
+    position: relative;
+    justify-content: center;
+    width: 640px;
+    height: 380px;
+    background-image: url('./imagens/folha2.png');
+    transition: 0.5s;
+}
+.img2:hover{
+    background-image: url('./imagens/fundo.png');    
+    cursor: pointer;
+    transition-delay: 0.1s
+}
+.img3{
+    position: relative;
+    justify-content: center;
+    width: 640px;
+    height: 380px;
+    background-image: url('./imagens/folha3.png');
+    transition: 0.5s;
+}
+.img3:hover{
+    background-image: url('./imagens/fundo.png');
+    cursor: pointer;
+    transition-delay: 0.1s;
+}
+.texto{
+    position: absolute;
+    display: flex;
+    width: 450px;
+    top: 110px; 
+    left: 110px;
+    
+}
+
+
+
+/* .card1{
     position: relative;
     
     display: flex;
@@ -190,7 +243,7 @@ body{
     justify-content: center;
     align-items: center;
     bottom: 100px;
-    z-index: 2;
+   
 }
 
 .imgCard1{
@@ -229,16 +282,27 @@ body{
     background-image: url(./imagens/fundo.png);
     transition-delay: 0.2s;
 }
-.conteudobx{
+ .conteudobx{
+    display: flex; 
+    position: relative;
+    justify-content: center;
     
-    background-color: rgba(255, 255, 255, 0);
+   
+    
+    background-image: url(./imagens/fundo.png);
+
 }
 
+.box{
+    background-image: url('./imagens/katerine.jpg');
+    
+   
+}
+.box:hover{
+    background-image: none;
+}
 
-
-
-
-
+ */
 
 
 
