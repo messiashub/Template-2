@@ -2,21 +2,40 @@
 
     /* box-shadow: inset 0px 0px 0px 1px rgba(255, 30, 0, 0.376); */  
     box-sizing: border-box;
-    
+     
 }
+h1, h2 ,h3, h4, h5, h6{font-family: Georgia, 'Times New Roman', Times, serif;}
 
 body{
     margin: 0;
-    padding: 0;  
+    padding: 0; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
 }
-/* a{
-    list-style: none;
-} */
+
+
+
 
 :root{
     --var-azul: rgba(135, 187, 235, 0.568);
+    --var-azul2: #87d1db;
     --var-black:rgb(25, 29, 29);
+    --var-black2:rgb(26, 26, 26);
+    --var-white2: rgb(218, 218, 218);
 }
+.cor{
+    color: var(--var-azul);
+}
+.cor2{
+    color: var(--var-white2);  
+}
+.azul2{
+    color: var(--var-azul2);
+}
+.cor3{
+    color:rgb(26, 26, 26); ;
+}
+
 .pNav{
     padding: 16px 0px 8px 0px;
 }
@@ -25,6 +44,13 @@ body{
     background: url(imagens/empresa1.png); 
     background-size: cover ;
 }
+a{
+    margin-left: 1.2em;
+}
+a:hover{
+    text-decoration: none;
+}
+
 .wrapper{
    max-width: 100%;
    min-height: 540px;
@@ -35,7 +61,7 @@ body{
     border-left: 4px solid rgba(255, 255, 255, 0.5);
     border-bottom: 4px solid  rgba(255, 255, 255, 0.5);
 }
-.caixa h4{
+.caixa h2{
     color: white;
 }
 .caixa2 p{
@@ -53,9 +79,7 @@ body{
     border:1px solid rgb(241, 238, 238);
 }
 
-.cor{
-    color: var(--var-azul);
-}
+
 /* secao2 */
 
 .caixa3{
@@ -67,6 +91,10 @@ body{
     
 }
 /* seção 3 */
+
+@media(max-width:650px){
+
+}
 .card{
     border: 0;
     position: relative;
@@ -77,14 +105,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0;
-    
-    
+    border-radius: 0;   
 }
+
 .content{
     position: absolute;
     bottom: -85%;
-    /* bottom: -264px; */
+   
     width: 100%;
     height: 100%;
     display: flex;
@@ -103,12 +130,15 @@ body{
 
 .contentBx{
     position: absolute;
-    width: 300px;
+    max-width: 300px;
     display: flex;
     justify-content: center;
     top: 10px;   
     flex-direction:column;
     /* justify-content: center;*/ 
+}
+@media(max-width:450px){
+    .content{display: none} 
 }
 
 .contentBx p{  
@@ -148,6 +178,9 @@ body{
 .color{
     background: var(--var-black);
 }
+.color2{
+    background: var(--var-black2);
+}
 
 .btn2{
     background-color: rgb(135, 209, 219);
@@ -178,7 +211,7 @@ body{
 .img1{
     position: relative;
     justify-content: center;
-    width: 640px;
+    max-width: 640px;
     height: 380px;
     background-image: url('./imagens/folha1.png');
     transition: 0.5s;
@@ -193,7 +226,7 @@ body{
 .img2{
     position: relative;
     justify-content: center;
-    width: 640px;
+    max-width: 640px;
     height: 380px;
     background-image: url('./imagens/folha2.png');
     transition: 0.5s;
@@ -206,7 +239,7 @@ body{
 .img3{
     position: relative;
     justify-content: center;
-    width: 640px;
+    max-width: 640px;
     height: 380px;
     background-image: url('./imagens/folha3.png');
     transition: 0.5s;
@@ -216,14 +249,35 @@ body{
     cursor: pointer;
     transition-delay: 0.1s;
 }
+/* .pos{
+    max-width: ;
+} */
 .texto{
     position: absolute;
     display: flex;
-    width: 450px;
+    max-width: 450px;
     top: 110px; 
-    left: 110px;
-    
+    left: 110px;   
 }
+@media(max-width:400px){
+    .texto{
+        left: 30px;
+        margin-right: 20px;
+        }
+
+}
+.btn3{
+    background-color: rgb(135, 209, 219);
+    border-color:rgba(0, 0, 0, 0);
+    transition: 0.5s;
+}
+
+.btn3:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: var(--var-black);
+}
+
 
 
 
