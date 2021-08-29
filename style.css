@@ -39,9 +39,8 @@ body{
 .pNav{
     padding: 16px 0px 8px 0px;
 }
-.banner { 
-   
-    background: url(imagens/empresa1.png); 
+.banner {
+    background: url('/imagens/empresa1.png'); 
     background-size: cover ;
 }
 a{
@@ -93,8 +92,14 @@ a:hover{
 /* seção 3 */
 
 @media(max-width:650px){
+/* .banner{
+    background:url('/imagens/Sem Título-1.png');
+    display: flex;
+    
 
+} */
 }
+
 .card{
     border: 0;
     position: relative;
@@ -138,6 +143,11 @@ a:hover{
     /* justify-content: center;*/ 
 }
 @media(max-width:450px){
+    /* .banner{
+        width: 450px;
+        height: 210px;
+        background: url('/imagens/teste1.png');
+    } */
     .content{display: none} 
 }
 
@@ -211,7 +221,7 @@ a:hover{
 .img1{
     position: relative;
     justify-content: center;
-    max-width: 640px;
+    width: 640px;
     height: 380px;
     background-image: url('./imagens/folha1.png');
     transition: 0.5s;
@@ -260,10 +270,10 @@ a:hover{
     left: 110px;   
 }
 @media(max-width:400px){
-    .texto{
-        left: 30px;
-        margin-right: 20px;
-        }
+.texto{
+    left: 30px;
+    margin-right: 20px;
+    }
 
 }
 .btn3{
