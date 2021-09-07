@@ -40,8 +40,9 @@ body{
     padding: 16px 0px 8px 0px;
 }
 .banner {
-    background: url('/imagens/empresa1.png'); 
-    background-size: cover ;
+   /*  background: url('/imagens/empresa1.png');  */
+    /* background-size: cover ; */
+    position: relative;
 }
 a{
     margin-left: 1.2em;
@@ -51,8 +52,12 @@ a:hover{
 }
 
 .wrapper{
+   
+   
+   position: absolute;
    max-width: 100%;
    min-height: 540px;
+   bottom: 0%;
 }
 .caixa{
     margin-bottom: 1em;
